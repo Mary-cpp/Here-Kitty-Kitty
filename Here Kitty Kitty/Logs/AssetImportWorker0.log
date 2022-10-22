@@ -15,7 +15,7 @@ D:/unityHub/UnityTemplates/Here-Kitty-Kitty/Here Kitty Kitty
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61303
+49155
 Successfully changed project path to: D:/unityHub/UnityTemplates/Here-Kitty-Kitty/Here Kitty Kitty
 D:/unityHub/UnityTemplates/Here-Kitty-Kitty/Here Kitty Kitty
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/unityHub/UnityTemplates/Here-Kitty-Kitty/Here Kitty Kitty
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 153.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 116.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path D:/unityHub/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'D:/unityHub/Unity/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unityHub/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unityHub/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unityHub/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unityHub/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005966 seconds.
+Registered in 0.002737 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 265.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 115.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.644 seconds
+- Completed reload, in  0.689 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1645ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1241ms)
-			LoadAssemblies (165ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (716ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (266ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007143 seconds.
+Registered in 0.003981 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unityHub\UnityTemplates\Here-Kitty-Kitty\Here Kitty Kitty\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\unityHub\UnityTemplates\Here-Kitty-Kitty\Here Kitty Kitty\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 219.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 118.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  2.611 seconds
+- Completed reload, in  1.299 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2613ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2216ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (625ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (151ms)
-			SetupLoadedEditorAssemblies (1106ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (219ms)
-				BeforeProcessingInitializeOnLoad (236ms)
-				ProcessInitializeOnLoadAttributes (535ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (228.9 KB). Loaded Objects now: 4746.
+Unloading 60 unused Assets / (228.8 KB). Loaded Objects now: 4746.
 Memory consumption went from 158.8 MB to 158.6 MB.
-Total: 5.161100 ms (FindLiveObjects: 0.412700 ms CreateObjectMapping: 0.362200 ms MarkObjects: 4.013100 ms  DeleteObjects: 0.371500 ms)
+Total: 3.748000 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.320600 ms MarkObjects: 2.891800 ms  DeleteObjects: 0.170600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31831.907758 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a96da0d1335ae901594340dde250e') in 0.049762 seconds 
+  Time since last request: 2807.690078 seconds.
+  path: Assets/Adaptive Performance/Rectangular Palette.prefab
+  artifactKey: Guid(af1b5d5b17b64794fb5350b4a4204c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Rectangular Palette.prefab using Guid(af1b5d5b17b64794fb5350b4a4204c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faa54cad19519541cc60aa988ed9d69') in 0.119954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.550372 seconds.
+  path: Assets/Adaptive Performance/bricks.png
+  artifactKey: Guid(6277434e2497b0e45bd3d09e761a92da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/bricks.png using Guid(6277434e2497b0e45bd3d09e761a92da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dbd24fdf138f9a137c3a97250d67be') in 0.038996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.405895 seconds.
+  path: Assets/Adaptive Performance/Sprite Shape Profile.asset
+  artifactKey: Guid(7fb6addfea909fd419cae493dbf8e998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Sprite Shape Profile.asset using Guid(7fb6addfea909fd419cae493dbf8e998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce66e616ccf0eeddc05b2f186c2263c4') in 0.005428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.186149 seconds.
+  path: Assets/Adaptive Performance/Square.png
+  artifactKey: Guid(9653f09f9a19c1344aaf18bf81baaf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Square.png using Guid(9653f09f9a19c1344aaf18bf81baaf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80809ac0651d46484098a824a9509050') in 0.013771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.022687 seconds.
+  path: Assets/Adaptive Performance/ground_bricks.png
+  artifactKey: Guid(c7b07cb701bdb8a4cb0bd41a78c244e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/ground_bricks.png using Guid(c7b07cb701bdb8a4cb0bd41a78c244e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9964609cd32f923204ff9becd32b57') in 0.016560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.593111 seconds.
+  path: Assets/Adaptive Performance/Bricks.png
+  artifactKey: Guid(515f1ca7aad4f7448a6688dc03ba6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Bricks.png using Guid(515f1ca7aad4f7448a6688dc03ba6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f15b92e751db3f14d8be4a6a7b962b') in 0.019450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.904352 seconds.
+  path: Assets/Adaptive Performance/Triangle.png
+  artifactKey: Guid(1e6fb10468c65ff4ca1d90e97eca27d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Triangle.png using Guid(1e6fb10468c65ff4ca1d90e97eca27d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6777a8d3d8ff76e694d7698d94dbe4d4') in 0.015569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.118901 seconds.
+  path: Assets/Adaptive Performance/Square.png
+  artifactKey: Guid(ebb76fb38e5e17a40af742ebdd23f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Square.png using Guid(ebb76fb38e5e17a40af742ebdd23f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4603db10bb12cb951924c95328a0fab4') in 0.015021 seconds 
